@@ -13,6 +13,11 @@
 		B3F308931D72F88D00E737E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F308911D72F88D00E737E7 /* LaunchScreen.storyboard */; };
 		B3F308A01D72FEC200E737E7 /* CJMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3089F1D72FEC200E737E7 /* CJMHomeViewController.m */; };
 		B3F308A31D72FEF700E737E7 /* CJMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308A21D72FEF700E737E7 /* CJMMainViewController.m */; };
+		B3F308B21D7323F900E737E7 /* NSArray+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308A91D7323F900E737E7 /* NSArray+CZAddition.m */; };
+		B3F308B31D7323F900E737E7 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308AB1D7323F900E737E7 /* NSAttributedString+CZAdditon.m */; };
+		B3F308B41D7323F900E737E7 /* NSObject+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308AD1D7323F900E737E7 /* NSObject+CZAddition.m */; };
+		B3F308B51D7323F900E737E7 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308AF1D7323F900E737E7 /* UIColor+CZAddition.m */; };
+		B3F308B61D7323F900E737E7 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308B11D7323F900E737E7 /* UILabel+CZAddition.m */; };
 		D34C0E558BA45CBB98EE7A9E /* libPods-生活圈.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B3C247E39C633464FDD17A /* libPods-生活圈.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +35,18 @@
 		B3F3089F1D72FEC200E737E7 /* CJMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMHomeViewController.m; sourceTree = "<group>"; };
 		B3F308A11D72FEF700E737E7 /* CJMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMMainViewController.h; sourceTree = "<group>"; };
 		B3F308A21D72FEF700E737E7 /* CJMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMMainViewController.m; sourceTree = "<group>"; };
+		B3F308A51D730D7400E737E7 /* CJMPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMPrefix.pch; sourceTree = "<group>"; };
+		B3F308A71D7323F900E737E7 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		B3F308A81D7323F900E737E7 /* NSArray+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CZAddition.h"; sourceTree = "<group>"; };
+		B3F308A91D7323F900E737E7 /* NSArray+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CZAddition.m"; sourceTree = "<group>"; };
+		B3F308AA1D7323F900E737E7 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		B3F308AB1D7323F900E737E7 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		B3F308AC1D7323F900E737E7 /* NSObject+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZAddition.h"; sourceTree = "<group>"; };
+		B3F308AD1D7323F900E737E7 /* NSObject+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZAddition.m"; sourceTree = "<group>"; };
+		B3F308AE1D7323F900E737E7 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		B3F308AF1D7323F900E737E7 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		B3F308B01D7323F900E737E7 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		B3F308B11D7323F900E737E7 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
 		E158829069E19DFB56A35C76 /* Pods-生活圈.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-生活圈.release.xcconfig"; path = "Pods/Target Support Files/Pods-生活圈/Pods-生活圈.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +78,7 @@
 				B3F3088F1D72F88D00E737E7 /* Assets.xcassets */,
 				B3F308911D72F88D00E737E7 /* LaunchScreen.storyboard */,
 				B3F308941D72F88D00E737E7 /* Info.plist */,
+				B3F308A51D730D7400E737E7 /* CJMPrefix.pch */,
 				D9696E4A3314B57E9C43DC5E /* Pods */,
 				AD2E56841D8145A97C2916A3 /* Frameworks */,
 			);
@@ -97,6 +115,7 @@
 		B3F3089A1D72FE4C00E737E7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				B3F308A61D7323F900E737E7 /* Additions */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -126,6 +145,24 @@
 				B3F308A21D72FEF700E737E7 /* CJMMainViewController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B3F308A61D7323F900E737E7 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B3F308A71D7323F900E737E7 /* CZAdditions.h */,
+				B3F308A81D7323F900E737E7 /* NSArray+CZAddition.h */,
+				B3F308A91D7323F900E737E7 /* NSArray+CZAddition.m */,
+				B3F308AA1D7323F900E737E7 /* NSAttributedString+CZAdditon.h */,
+				B3F308AB1D7323F900E737E7 /* NSAttributedString+CZAdditon.m */,
+				B3F308AC1D7323F900E737E7 /* NSObject+CZAddition.h */,
+				B3F308AD1D7323F900E737E7 /* NSObject+CZAddition.m */,
+				B3F308AE1D7323F900E737E7 /* UIColor+CZAddition.h */,
+				B3F308AF1D7323F900E737E7 /* UIColor+CZAddition.m */,
+				B3F308B01D7323F900E737E7 /* UILabel+CZAddition.h */,
+				B3F308B11D7323F900E737E7 /* UILabel+CZAddition.m */,
+			);
+			path = Additions;
 			sourceTree = "<group>";
 		};
 		D9696E4A3314B57E9C43DC5E /* Pods */ = {
@@ -258,8 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F308B61D7323F900E737E7 /* UILabel+CZAddition.m in Sources */,
+				B3F308B51D7323F900E737E7 /* UIColor+CZAddition.m in Sources */,
 				B3F308A31D72FEF700E737E7 /* CJMMainViewController.m in Sources */,
 				B3F308A01D72FEC200E737E7 /* CJMHomeViewController.m in Sources */,
+				B3F308B31D7323F900E737E7 /* NSAttributedString+CZAdditon.m in Sources */,
+				B3F308B21D7323F900E737E7 /* NSArray+CZAddition.m in Sources */,
+				B3F308B41D7323F900E737E7 /* NSObject+CZAddition.m in Sources */,
 				B3F308881D72F88D00E737E7 /* AppDelegate.m in Sources */,
 				B3F308851D72F88D00E737E7 /* main.m in Sources */,
 			);
@@ -369,6 +411,7 @@
 			baseConfigurationReference = 71AA130F745274046A25E0A0 /* Pods-生活圈.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = CJMPrefix.pch;
 				INFOPLIST_FILE = "生活圈/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -382,6 +425,7 @@
 			baseConfigurationReference = E158829069E19DFB56A35C76 /* Pods-生活圈.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = CJMPrefix.pch;
 				INFOPLIST_FILE = "生活圈/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

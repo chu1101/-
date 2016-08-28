@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CJMHomeViewController.h
 //  生活圈
 //
 //  Created by 1 10 1 on 16/8/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CJMHomeViewController : UIViewController
 
 @end
-

@@ -13,9 +13,12 @@
 		B3F3088E1D72F88D00E737E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F3088C1D72F88D00E737E7 /* Main.storyboard */; };
 		B3F308901D72F88D00E737E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F3088F1D72F88D00E737E7 /* Assets.xcassets */; };
 		B3F308931D72F88D00E737E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F308911D72F88D00E737E7 /* LaunchScreen.storyboard */; };
+		D34C0E558BA45CBB98EE7A9E /* libPods-生活圈.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B3C247E39C633464FDD17A /* libPods-生活圈.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71AA130F745274046A25E0A0 /* Pods-生活圈.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-生活圈.debug.xcconfig"; path = "Pods/Target Support Files/Pods-生活圈/Pods-生活圈.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B3C247E39C633464FDD17A /* libPods-生活圈.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-生活圈.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F308801D72F88D00E737E7 /* 生活圈.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "生活圈.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F308841D72F88D00E737E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3F308861D72F88D00E737E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		B3F3088F1D72F88D00E737E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F308921D72F88D00E737E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3F308941D72F88D00E737E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E158829069E19DFB56A35C76 /* Pods-生活圈.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-生活圈.release.xcconfig"; path = "Pods/Target Support Files/Pods-生活圈/Pods-生活圈.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34C0E558BA45CBB98EE7A9E /* libPods-生活圈.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD2E56841D8145A97C2916A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3C247E39C633464FDD17A /* libPods-生活圈.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3F308771D72F88D00E737E7 = {
 			isa = PBXGroup;
 			children = (
 				B3F308821D72F88D00E737E7 /* 生活圈 */,
 				B3F308811D72F88D00E737E7 /* Products */,
+				D9696E4A3314B57E9C43DC5E /* Pods */,
+				AD2E56841D8145A97C2916A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9696E4A3314B57E9C43DC5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71AA130F745274046A25E0A0 /* Pods-生活圈.debug.xcconfig */,
+				E158829069E19DFB56A35C76 /* Pods-生活圈.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3F308971D72F88D00E737E7 /* Build configuration list for PBXNativeTarget "生活圈" */;
 			buildPhases = (
+				057F11F183F5EAA12AE65F4B /* [CP] Check Pods Manifest.lock */,
 				B3F3087C1D72F88D00E737E7 /* Sources */,
 				B3F3087D1D72F88D00E737E7 /* Frameworks */,
 				B3F3087E1D72F88D00E737E7 /* Resources */,
+				6DC7B3BA058F2F2862320853 /* [CP] Embed Pods Frameworks */,
+				0D21823B9B998A0D82603800 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,6 +170,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		057F11F183F5EAA12AE65F4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0D21823B9B998A0D82603800 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-生活圈/Pods-生活圈-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC7B3BA058F2F2862320853 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-生活圈/Pods-生活圈-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3F3087C1D72F88D00E737E7 /* Sources */ = {
@@ -263,6 +338,7 @@
 		};
 		B3F308981D72F88D00E737E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AA130F745274046A25E0A0 /* Pods-生活圈.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "生活圈/Info.plist";
@@ -274,6 +350,7 @@
 		};
 		B3F308991D72F88D00E737E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E158829069E19DFB56A35C76 /* Pods-生活圈.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "生活圈/Info.plist";
@@ -302,6 +379,7 @@
 				B3F308991D72F88D00E737E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

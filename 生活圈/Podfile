@@ -1,0 +1,10 @@
+ platform :ios, '8.0'
+
+target '生活圈' do
+pod 'YYModel'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'FMDB'
+pod 'Masonry'
+
+end

@@ -18,6 +18,9 @@
 		B3F308B41D7323F900E737E7 /* NSObject+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308AD1D7323F900E737E7 /* NSObject+CZAddition.m */; };
 		B3F308B51D7323F900E737E7 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308AF1D7323F900E737E7 /* UIColor+CZAddition.m */; };
 		B3F308B61D7323F900E737E7 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308B11D7323F900E737E7 /* UILabel+CZAddition.m */; };
+		B3F308BB1D7353EC00E737E7 /* CJMNewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308BA1D7353EC00E737E7 /* CJMNewsListViewController.m */; };
+		B3F308C11D735B4500E737E7 /* CSNetworkManager+weatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308BE1D735B4500E737E7 /* CSNetworkManager+weatherInfo.m */; };
+		B3F308C21D735B4500E737E7 /* CSNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F308C01D735B4500E737E7 /* CSNetworkManager.m */; };
 		D34C0E558BA45CBB98EE7A9E /* libPods-生活圈.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B3C247E39C633464FDD17A /* libPods-生活圈.a */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +34,8 @@
 		B3F3088F1D72F88D00E737E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "生活圈/Assets.xcassets"; sourceTree = "<group>"; };
 		B3F308921D72F88D00E737E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3F308941D72F88D00E737E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "生活圈/Info.plist"; sourceTree = "<group>"; };
-		B3F3089E1D72FEC200E737E7 /* CJMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMHomeViewController.h; sourceTree = "<group>"; };
-		B3F3089F1D72FEC200E737E7 /* CJMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMHomeViewController.m; sourceTree = "<group>"; };
+		B3F3089E1D72FEC200E737E7 /* CJMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJMHomeViewController.h; path = ../../Home/CJMHomeViewController.h; sourceTree = "<group>"; };
+		B3F3089F1D72FEC200E737E7 /* CJMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJMHomeViewController.m; path = ../../Home/CJMHomeViewController.m; sourceTree = "<group>"; };
 		B3F308A11D72FEF700E737E7 /* CJMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMMainViewController.h; sourceTree = "<group>"; };
 		B3F308A21D72FEF700E737E7 /* CJMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMMainViewController.m; sourceTree = "<group>"; };
 		B3F308A51D730D7400E737E7 /* CJMPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMPrefix.pch; sourceTree = "<group>"; };
@@ -47,6 +50,12 @@
 		B3F308AF1D7323F900E737E7 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
 		B3F308B01D7323F900E737E7 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
 		B3F308B11D7323F900E737E7 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		B3F308B91D7353EC00E737E7 /* CJMNewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMNewsListViewController.h; sourceTree = "<group>"; };
+		B3F308BA1D7353EC00E737E7 /* CJMNewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMNewsListViewController.m; sourceTree = "<group>"; };
+		B3F308BD1D735B4500E737E7 /* CSNetworkManager+weatherInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSNetworkManager+weatherInfo.h"; sourceTree = "<group>"; };
+		B3F308BE1D735B4500E737E7 /* CSNetworkManager+weatherInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CSNetworkManager+weatherInfo.m"; sourceTree = "<group>"; };
+		B3F308BF1D735B4500E737E7 /* CSNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNetworkManager.h; sourceTree = "<group>"; };
+		B3F308C01D735B4500E737E7 /* CSNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNetworkManager.m; sourceTree = "<group>"; };
 		E158829069E19DFB56A35C76 /* Pods-生活圈.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-生活圈.release.xcconfig"; path = "Pods/Target Support Files/Pods-生活圈/Pods-生活圈.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +124,7 @@
 		B3F3089A1D72FE4C00E737E7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				B3F308BC1D735B4500E737E7 /* NetworkTools */,
 				B3F308A61D7323F900E737E7 /* Additions */,
 			);
 			path = Tools;
@@ -132,8 +142,8 @@
 		B3F3089C1D72FE6000E737E7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				B3F3089E1D72FEC200E737E7 /* CJMHomeViewController.h */,
-				B3F3089F1D72FEC200E737E7 /* CJMHomeViewController.m */,
+				B3F308B71D7353B800E737E7 /* NewsDeta(新闻详情) */,
+				B3F308B81D7353B800E737E7 /* NewsList(新闻列表) */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -163,6 +173,37 @@
 				B3F308B11D7323F900E737E7 /* UILabel+CZAddition.m */,
 			);
 			path = Additions;
+			sourceTree = "<group>";
+		};
+		B3F308B71D7353B800E737E7 /* NewsDeta(新闻详情) */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3089E1D72FEC200E737E7 /* CJMHomeViewController.h */,
+				B3F3089F1D72FEC200E737E7 /* CJMHomeViewController.m */,
+			);
+			name = "NewsDeta(新闻详情)";
+			path = "../Main/NewsDeta(新闻详情)";
+			sourceTree = "<group>";
+		};
+		B3F308B81D7353B800E737E7 /* NewsList(新闻列表) */ = {
+			isa = PBXGroup;
+			children = (
+				B3F308B91D7353EC00E737E7 /* CJMNewsListViewController.h */,
+				B3F308BA1D7353EC00E737E7 /* CJMNewsListViewController.m */,
+			);
+			name = "NewsList(新闻列表)";
+			path = "../Main/NewsList(新闻列表)";
+			sourceTree = "<group>";
+		};
+		B3F308BC1D735B4500E737E7 /* NetworkTools */ = {
+			isa = PBXGroup;
+			children = (
+				B3F308BD1D735B4500E737E7 /* CSNetworkManager+weatherInfo.h */,
+				B3F308BE1D735B4500E737E7 /* CSNetworkManager+weatherInfo.m */,
+				B3F308BF1D735B4500E737E7 /* CSNetworkManager.h */,
+				B3F308C01D735B4500E737E7 /* CSNetworkManager.m */,
+			);
+			path = NetworkTools;
 			sourceTree = "<group>";
 		};
 		D9696E4A3314B57E9C43DC5E /* Pods */ = {
@@ -297,10 +338,13 @@
 			files = (
 				B3F308B61D7323F900E737E7 /* UILabel+CZAddition.m in Sources */,
 				B3F308B51D7323F900E737E7 /* UIColor+CZAddition.m in Sources */,
+				B3F308BB1D7353EC00E737E7 /* CJMNewsListViewController.m in Sources */,
 				B3F308A31D72FEF700E737E7 /* CJMMainViewController.m in Sources */,
+				B3F308C11D735B4500E737E7 /* CSNetworkManager+weatherInfo.m in Sources */,
 				B3F308A01D72FEC200E737E7 /* CJMHomeViewController.m in Sources */,
 				B3F308B31D7323F900E737E7 /* NSAttributedString+CZAdditon.m in Sources */,
 				B3F308B21D7323F900E737E7 /* NSArray+CZAddition.m in Sources */,
+				B3F308C21D735B4500E737E7 /* CSNetworkManager.m in Sources */,
 				B3F308B41D7323F900E737E7 /* NSObject+CZAddition.m in Sources */,
 				B3F308881D72F88D00E737E7 /* AppDelegate.m in Sources */,
 				B3F308851D72F88D00E737E7 /* main.m in Sources */,
